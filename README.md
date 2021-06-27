@@ -17,7 +17,7 @@ CLOUDFLARE_MIDDLEWARE_AUTH=
 ## Usage
 
 Add this to the end of your site's deployment script. Don't forget to change the URL, Zone ID, and auth token.
-The auth token is the same token as you generated and placed in the CLOUDFLARE_MIDDLEWARE_AUTH env variable.
+The auth token is the same token as you generated and placed in the `CLOUDFLARE_MIDDLEWARE_AUTH` env variable.
 
 ```text
 curl https://cloudflare-cache-buster.test/clear-zone/{ZONE-ID}?auth={CLOUDFLARE_MIDDLEWARE_AUTH}
