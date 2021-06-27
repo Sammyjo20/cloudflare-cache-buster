@@ -23,6 +23,8 @@ The auth token is the same token as you generated and placed in the `CLOUDFLARE_
 curl https://cloudflare-cache-buster.test/clear-zone/{ZONE-ID}?auth={CLOUDFLARE_MIDDLEWARE_AUTH}
 ```
 
+Alternatively you can add the URL as a post-deployment webhook.
+
 ## Queues
 
 It is recommended you set up a queue for this process, as this will improve the performance of the webhook. I recommend using the database queue.

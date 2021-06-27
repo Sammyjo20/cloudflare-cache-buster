@@ -14,4 +14,4 @@ use App\Http\Controllers\ClearCacheController;
 |
 */
 
-Route::get('/clear-zone/{zone}', [ClearCacheController::class, 'clearZone'])->middleware('clearZoneCache')->name('cache.clear');
+Route::match(['get', 'post'], '/clear-zone/{zone}', [ClearCacheController::class, 'clearZone'])->middleware('clearZoneCache')->name('cache.clear');
