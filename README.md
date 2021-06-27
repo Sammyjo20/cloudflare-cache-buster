@@ -1,6 +1,6 @@
 # Cloudflare Cache Buster 💥
 
-This mini-app will let you purge all cache for a given Cloudflare Site (zone). This is especially useful when used during the deployment script as some sites won't show your changes within a new deployment unless you clear the Cloudflare cache. This app helps you avoid frustration by debugging why changes are being made or by going into the Cloudflare dashboard.
+This mini-app will let you purge all cache for a given Cloudflare Site (zone). This is especially useful when used during the deployment of your app/site as some sites won't show your changes within a new deployment unless you clear the Cloudflare cache. This app helps you avoid frustration by debugging why changes are being made or by going into the Cloudflare dashboard.
 
 ## Installation
 
