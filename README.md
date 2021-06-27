@@ -16,7 +16,7 @@ CLOUDFLARE_MIDDLEWARE_AUTH=
 
 ## Usage
 
-Add this to the end of your site's deployment script. Don't forget to change the URL, Zone ID, and auth token.
+Add this to the end of your site's deployment script. Don't forget to change the URL, Zone ID, and auth token. Generate a token and give it the "Cache busting for all zones" privilege. 
 The auth token is the same token as you generated and placed in the `CLOUDFLARE_MIDDLEWARE_AUTH` env variable.
 
 ```text
