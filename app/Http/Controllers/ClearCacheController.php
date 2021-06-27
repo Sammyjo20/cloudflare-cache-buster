@@ -26,6 +26,7 @@ class ClearCacheController extends Controller
 
         return response()->json([
             'status' => 'accepted',
+            'message' => 'Attempting to clear the Cloudflare cache.',
             'inspiration' => Inspiring::quote(),
         ], 202);
     }
