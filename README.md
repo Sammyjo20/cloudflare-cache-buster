@@ -11,12 +11,12 @@ CLOUDFLARE_TOKEN=
 CLOUDFLARE_MIDDLEWARE_AUTH=
 ```
 
-- `CLOUDFLARE_TOKEN` is the API token which is used in the API request to clear a site's cache.
+- `CLOUDFLARE_TOKEN` is the API token which is used in the API request to clear a site's cache. Generate a token and give it the "Cache busting for all zones" privilege.
 - `CLOUDFLARE_MIDDLEWARE_AUTH` should be a randomly generated string token used to lock-down the webhook.
 
 ## Usage
 
-Add this to the end of your site's deployment script. Don't forget to change the URL, Zone ID, and auth token. Generate a token and give it the "Cache busting for all zones" privilege. 
+Add this to the end of your site's deployment script. Don't forget to change the URL, Zone ID, and auth token.
 The auth token is the same token as you generated and placed in the `CLOUDFLARE_MIDDLEWARE_AUTH` env variable.
 
 ```text
