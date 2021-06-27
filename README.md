@@ -4,7 +4,7 @@ This mini-app will let you purge all cache for a given Cloudflare Site (zone). T
 
 ## Installation
 
-Add this Laravel app to your favourite deployment service (e.g Laravel Forge) and once setup, set the following API keys:
+Clone this repo, and then add it as a new site on your favourite deployment service (e.g Laravel Forge). Once setup set the following API keys:
 
 ```text
 CLOUDFLARE_TOKEN=
