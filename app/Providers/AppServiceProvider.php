@@ -23,8 +23,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        if (! config('services.cloudflare.middleware_auth', null)) {
-            throw new \Exception('You must specify a CLOUDFLARE_MIDDLEWARE_AUTH token. This should be a randomly generated string.');
-        }
+        //
     }
 }
